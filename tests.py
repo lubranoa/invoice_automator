@@ -1,6 +1,15 @@
+import os
+from dotenv import load_dotenv
 import unittest
 from selenium import webdriver
 import page
+
+load_dotenv()
+
+BASE_URL = os.getenv("BASE_URL")
+COMPANY_ID = os.getenv("COMPANY_ID")
+USER = os.getenv("USER")
+KEY = os.getenv("KEY")
 
 class PythonOrgSearch(unittest.TestCase):
     """A sample test class to show how page object works"""
@@ -31,4 +40,3 @@ class PythonOrgSearch(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-    
