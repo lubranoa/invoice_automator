@@ -5,7 +5,7 @@ class SearchTextElement(BasePageElement):
     """This class gets the search text from the specified locator"""
 
     #The locator for search box where search string is entered
-    locator = 'q'
+    locator = 'ctl00_RadSearchBox1'
 
 
 class BasePage(object):
