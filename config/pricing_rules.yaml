@@ -1,0 +1,9 @@
+# config/pricing_rules.yaml
+
+tax_rate: 0.0825
+
+tli:
+  base_fee: 950
+  additional_rate_per_item: 1.5
+  drive_time_fee: 50
+  valuation_rate_per_item: 1.75

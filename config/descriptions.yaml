@@ -1,0 +1,20 @@
+departments:
+  default: "Contents"
+  con: "Hard contents"
+  ele: "Electronics"
+  fbr: "Textiles"
+
+inspection: "inspected, evaluated, and reported"
+
+invoice:
+  pack_store: "packed and stored"
+  clean_store: "packed, cleaned, and stored"
+  clean_no_store: "packed and cleaned"
+
+storage_update: "stored for an additional"
+
+tli:
+  base_line_items: "Inventory total loss contents (Base fee for up to 250 line items)"
+  addtl_line_items: "Inventory additional TL contents over 250"
+  drive_time: "Drive time labor for TLI Technician(s):"
+  line_item_valuation: "Valuate and report TL contents"
