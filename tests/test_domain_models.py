@@ -1,12 +1,17 @@
-import unittest, os
-from src.core.domain.types import Department
+import unittest
+
+from context import domain
+from domain.value_objects import Department as dept
+
 
 class TestDomainModels(unittest.TestCase):
     
     def test_department_models(self):
-        self.assertEqual(Department.CON.value, 'CON')
-        self.assertEqual(Department.ELE.value, 'ELE')
-        self.assertEqual(Department.FBR.value, 'FBR')
+        """_summary_
+        """
+        self.assertEqual(dept.CON.value, 'CON')
+        self.assertEqual(dept.ELE.value, 'ELE')
+        self.assertEqual(dept.FBR.value, 'FBR')
         
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(verbosity=2)
