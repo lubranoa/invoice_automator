@@ -7,11 +7,14 @@ from domain.value_objects import Department as dept
 class TestDomainModels(unittest.TestCase):
     
     def test_department_models(self):
-        """_summary_
+        """Tests that Department class contains the correct values and names.
         """
         self.assertEqual(dept.CON.value, 'CON')
+        self.assertEqual(dept.CON.name, 'CON')
         self.assertEqual(dept.ELE.value, 'ELE')
+        self.assertEqual(dept.ELE.name, 'ELE')
         self.assertEqual(dept.FBR.value, 'FBR')
+        self.assertEqual(dept.FBR.name, 'FBR')
         
 if __name__ == '__main__':
     unittest.main(verbosity=2)
